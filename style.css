@@ -168,8 +168,11 @@ section {
   gap: 5rem;
   height: 80vh;
 }
-
-.section__pic-container {
+.section_pic_container img{
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+.section_pic_container {
   display: flex;
   height: 400px;
   width: 400px;
@@ -308,7 +311,7 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
+.section_pic_container {
   height: 400px;
   width: 400px;
   margin: auto 0;
@@ -478,7 +481,7 @@ footer p {
   section {
     margin: 0 5%;
   }
-  .section__pic-container {
+  .section_pic_container {
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
@@ -535,7 +538,7 @@ footer p {
     gap: 0.5rem;
     text-align: center;
   }
-  .section__pic-container {
+  .section_pic_container {
     width: auto;
     height: 46vw;
     justify-content: center;
